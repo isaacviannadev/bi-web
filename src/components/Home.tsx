@@ -1,6 +1,8 @@
 import banner from '../../assets/projeto2.jpg';
+import { FlipWords } from './ui/flip-words';
 
 export default function HomeSection() {
+  const words = ['atendimento', 'design', 'Iluminação', 'estilo'];
   return (
     <section
       id='home'
@@ -17,7 +19,12 @@ export default function HomeSection() {
             className='text-center md:text-left p-5 max-w-custom-600 ml-96'
           >
             <h1 className='text-4xl md:text-5xl lg:text-7xl font-bold mb-4'>
-              Uma experiência única em atendimento
+              Uma experiência única em <br />
+              <FlipWords
+                words={words}
+                className='text-white text-4xl md:text-5xl lg:text-7xl font-bold mb-4'
+              />
+              <br />
             </h1>
             <p className='text-base md:text-lg mb-6'>
               Empresa exclusiva em Brasília, especializada em projetos,

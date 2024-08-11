@@ -2,7 +2,7 @@ export default function Services() {
   return (
     <section
       id='services'
-      className='section min-h-[70vh] p-28 flex flex-col justify-center items-center bg-brand-gray-50'
+      className='section min-h-[70vh] w-full flex flex-col justify-center items-center '
     >
       <div className='container gap-3 flex flex-col items-center'>
         <header className='mb-6'>

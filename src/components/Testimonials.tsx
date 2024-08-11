@@ -8,7 +8,7 @@ import {
 
 export default function Testimonials() {
   return (
-    <section id='testimonials' className='bg-brand-white py-32'>
+    <section id='testimonials' className='bg-brand-white py-'>
       <div className='container flex flex-col items-center'>
         <header className='mb-8'>
           <h1 className='text-3xl font-bold text-brand-gray-500'>
