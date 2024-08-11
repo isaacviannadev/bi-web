@@ -5,11 +5,11 @@ export default function Header() {
   return (
     <header
       id='header'
-      className='flex items-center py-3 px-16 fixed top-0 left-0 z-[100] w-full mb-8'
+      className='flex items-center py-2 px-10 fixed top-0 left-0 z-[100] w-full mb-8'
     >
       <div
         className='container flex items-center px-24 py-2 justify-between border border-brand-gray-50 shadow-header rounded-full bg-brand-white
-       bg-opacity-80'
+       bg-opacity-96'
       >
         <a className='title' href='#home'>
           <Image
