@@ -1,21 +1,15 @@
-import Image from 'next/image';
-import Camila from '../../assets/camila.jpg';
+import Camila from '../../assets/camila.jpg'; // Imagem importada
+import { ParallaxImage } from './ui/direction-aware-hover';
 
 export default function About() {
   return (
     <section
       id='about'
-      className='min-h-[92vh] py-28 flex items-center bg-brand-white '
+      className='min-h-[96vh] px-36 flex items-center bg-brand-white overflow-hidden'
     >
       <div className='container w-auto flex flex-col md:flex-row items-center'>
-        <div className='relative mb-8 md:mb-0 md:mr-8'>
-          <div className='absolute shadow-shape top-[-8.3%] left-[-33%] w-full h-full bg-brand-primary z-0 rounded-lg md:rounded-xl' />
-          <Image
-            src={Camila}
-            alt='foto da proprietária em pé em fundo bege e roupa preta, sorrindo e de braços cruzados'
-            width={380}
-            className='relative bg-fixed rounded-lg md:rounded-xl shadow-shape'
-          />
+        <div className='relative pb-36 mb-8 md:mb-0 md:mr-8'>
+          <ParallaxImage src={Camila} />
         </div>
         <div className='max-w-[600px] opacity-80'>
           <h1 className='text-3xl text-brand-gray-500 font-bold mb-4'>
