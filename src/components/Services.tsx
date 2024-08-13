@@ -4,12 +4,12 @@ export default function Services() {
       id='services'
       className='section min-h-[80vh] w-full flex flex-col justify-center items-center '
     >
-      <div className='container gap-3 flex flex-col items-center'>
+      <div className='container px-32 gap-3 flex flex-col items-center'>
         <header className='mb-6'>
           <h1 className='text-3xl font-bold text-brand-gray-500'>Serviços</h1>
         </header>
 
-        <div className='w-full p-10 bg-brand-white bg-opacity-80 shadow-shape rounded-2xl'>
+        <div className='w-full px-10 py-6 bg-brand-white bg-opacity-80 shadow-shape rounded-2xl'>
           <div className='flex flex-col gap-3 w-full'>
             <h1 className='text-xl font-semibold text-brand-gray-500'>
               Projetos de Iluminação
@@ -36,7 +36,7 @@ export default function Services() {
           </div>
         </div>
 
-        <div className='w-full p-10 bg-brand-white bg-opacity-80 shadow-shape rounded-2xl'>
+        <div className='w-full px-10 py-6 bg-brand-white bg-opacity-80 shadow-shape rounded-2xl'>
           <div className='flex flex-col gap-3 w-full'>
             <h1 className='text-xl font-semibold text-brand-gray-500'>
               Consultoria

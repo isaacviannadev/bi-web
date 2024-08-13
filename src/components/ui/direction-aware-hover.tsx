@@ -53,7 +53,7 @@ export const ParallaxImage: React.FC<ParallaxImageProps> = ({ src }) => {
   return (
     <div className='relative'>
       <div
-        className='absolute top-[-8.3%] left-[-33%] w-full h-full bg-brand-primary z-0 rounded-lg md:rounded-xl'
+        className='absolute top-[-8.3%] left-[-33%] w-full h-full z-0 rounded-lg md:rounded-xl'
         style={{ transform: `translateY(${parallaxOffset}px)` }}
       />
       <Image

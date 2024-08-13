@@ -1,4 +1,4 @@
-import Camila from '../../assets/camila.jpg'; // Imagem importada
+import Camila from '../../assets/camila.jpg';
 import { ParallaxImage } from './ui/direction-aware-hover';
 
 export default function About() {
