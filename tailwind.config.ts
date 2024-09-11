@@ -13,6 +13,9 @@ const config = {
     container: {
       center: true,
       screens: {
+        sm: '430px',
+        md: '640px',
+        lg: '1120px',
         '2xl': '1800px',
       },
     },
