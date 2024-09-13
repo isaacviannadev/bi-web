@@ -25,20 +25,20 @@ export default function Testimonials() {
   ];
 
   return (
-    <section id='testimonials' className='bg-brand-white min-h-[70vh] flex'>
+    <section id='testimonials' className='bg-brand-gray-50 min-h-[70vh] flex'>
       <div className='container flex flex-col justify-center items-center'>
         <header className='mb-8'>
-          <h1 className='text-3xl font-bold text-brand-gray-500'>
+          <h1 className='text-3xl font-bold text-brand-gray-500 '>
             Depoimentos de quem já passou por aqui
           </h1>
         </header>
-        <div className='w-full flex justify-center p-6'>
+        <div className='w-full flex justify-center lg:p-6'>
           <InfiniteMovingCards
             items={testimonials}
             direction='left'
             speed='slow'
             pauseOnHover={true}
-            className='my-custom-class'
+            className='my-custom-class text-balance'
           />
         </div>
       </div>
