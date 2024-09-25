@@ -5,10 +5,10 @@ export default function About() {
   return (
     <section
       id='about'
-      className='min-h-[92vh] p-10 md:p-16 lg:py-28 flex justify-center bg-brand-white'
+      className='min-h-[60vh] flex justify-center bg-brand-white'
     >
-      <div className='container w-auto flex flex-col lg:flex-row items-center'>
-        <div className='relative mb-8  md:mr-8'>
+      <div className='absolute flex flex-col lg:flex-row w-9/12 bg-gray-50 p-12 shadow-header rounded-2xl items-center -mt-12 z-10'>
+        <div className='mb-8 md:mr-8'>
           <Image
             src={Camila}
             alt='foto da proprietária em pé em fundo bege e roupa preta, sorrindo e de braços cruzados'
@@ -16,7 +16,7 @@ export default function About() {
             className='relative bg-fixed rounded-lg md:rounded-xl shadow-shape'
           />
         </div>
-        <div className='max-w-custom-600 opacity-80'>
+        <div className='w-1/2 opacity-80'>
           <h1 className='text-3xl text-brand-gray-500 font-bold mb-4'>
             Quem somos
           </h1>
