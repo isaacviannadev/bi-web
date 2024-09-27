@@ -5,9 +5,9 @@ export default function About() {
   return (
     <section
       id='about'
-      className='min-h-[60vh] flex justify-center bg-brand-white'
+      className='min-h-[80vh] flex justify-center bg-brand-white'
     >
-      <div className='absolute flex flex-col lg:flex-row w-9/12 bg-gray-50 p-12 shadow-header rounded-2xl items-center -mt-12 z-10'>
+      <div className='absolute flex flex-col lg:flex-row w-9/12 bg-brand-gray-50 p-12 shadow-header rounded-2xl items-center -mt-12 z-10'>
         <div className='mb-8 md:mr-8'>
           <Image
             src={Camila}

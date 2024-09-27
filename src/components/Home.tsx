@@ -7,7 +7,7 @@ export default function HomeSection() {
   return (
     <section
       id='home'
-      className='relative z-10 w-full min-h-[90vh] bg-fixed bg-cover  bg-no-repeat lg:bg-cover lg:bg-center'
+      className='relative z-10 w-full min-h-[95vh] bg-fixed bg-cover  bg-no-repeat lg:bg-cover lg:bg-center'
       style={{ backgroundImage: `url(${banner.src})` }}
     >
       <div
