@@ -33,7 +33,7 @@ export default function HomeSection() {
             </p>
             <a
               href='#contact'
-              className='bg-brand-orange font-medium text-sm text-brand-gray-50 px-6 py-2 rounded-full hover:bg-brand-orange-600 transition duration-300'
+              className='bg-brand-dark font-bold text-base text-brand-gray-50 px-6 py-3 rounded-lg hover:bg-brand-orange-600 transition duration-300'
             >
               Entre em contato
             </a>

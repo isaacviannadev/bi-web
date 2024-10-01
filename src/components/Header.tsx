@@ -16,7 +16,7 @@ export default function Header() {
       id='header'
       className='flex items-center md:py-2 md:px-10 fixed top-0 left-0 z-[100] w-full md:mb-8'
     >
-      <div className='w-full flex px-6 justify-between items-center lg:px-16 py-2 md:border md:border-brand-gray-50 shadow-header md:rounded-full bg-brand-white bg-opacity-96'>
+      <div className='w-full flex px-6 justify-between items-center lg:px-16 py-2 md:border md:border-brand-gray-50 shadow-header md:rounded-lg bg-brand-white bg-opacity-96'>
         <a className='title' href='#home'>
           <Image
             className='logo w-24 md:w-28 lg:w-36'

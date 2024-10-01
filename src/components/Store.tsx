@@ -24,7 +24,7 @@ export default function Store() {
           Descubra como a iluminação pode mudar o seu espaço
         </h1>
         <a
-          className='bg-brand-orange text-brand-white px-6 py-2 rounded-full hover:bg-brand-orange-600'
+          className='bg-brand-dark font-bold text-brand-white px-6 py-2 rounded-lg hover:bg-brand-orange-600'
           href='https://shop.brasiliailuminacao.com.br/'
           target='_blank'
         >

@@ -7,16 +7,16 @@ export default function About() {
       id='about'
       className='min-h-[80vh] flex justify-center bg-brand-white'
     >
-      <div className='absolute flex flex-col lg:flex-row w-9/12 bg-brand-gray-50 p-12 shadow-header rounded-2xl items-center -mt-12 z-10'>
+      <div className='absolute flex flex-col lg:flex-row md:w-9/12 bg-brand-gray-50 p-12 shadow-header rounded-lg items-center lg:-mt-12 z-10'>
         <div className='mb-8 md:mr-8'>
           <Image
             src={Camila}
             alt='foto da proprietária em pé em fundo bege e roupa preta, sorrindo e de braços cruzados'
-            width={300}
-            className='relative bg-fixed rounded-lg md:rounded-xl shadow-shape'
+            width={400}
+            className='relative bg-fixed rounded-lg shadow-shape'
           />
         </div>
-        <div className='w-1/2 opacity-80'>
+        <div className='w-fit opacity-80'>
           <h1 className='text-3xl text-brand-gray-500 font-bold mb-4'>
             Quem somos
           </h1>

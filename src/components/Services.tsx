@@ -16,7 +16,7 @@ export default function Services() {
           </h1>
         </header>
 
-        <div className='w-full p-6 md:p-8 lg:p-10 bg-brand-white bg-opacity-80 shadow-shape rounded-2xl'>
+        <div className='container px-10 py-6'>
           <div className='flex flex-col gap-3 w-full'>
             <Image
               className='logo w-16 md:w-28 lg:w-16'
@@ -54,7 +54,7 @@ export default function Services() {
           </div>
         </div>
 
-        <div className='w-full px-10 py-6 bg-brand-white bg-opacity-80 shadow-shape rounded-2xl'>
+        <div className='container px-10 py-6'>
           <div className='flex flex-col gap-3 w-full'>
             <Image
               className='logo w-16 md:w-28 lg:w-16'
