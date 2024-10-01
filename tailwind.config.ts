@@ -13,7 +13,10 @@ const config = {
     container: {
       center: true,
       screens: {
-        '2xl': '1400px',
+        sm: '430px',
+        md: '640px',
+        lg: '1120px',
+        '2xl': '1800px',
       },
     },
     extend: {
@@ -41,6 +44,17 @@ const config = {
       },
       backgroundSize: {
         cover: 'cover',
+      },
+      animation: {
+        scroll:
+          'scroll var(--animation-duration, 40s) var(--animation-direction, forwards) linear infinite',
+      },
+      keyframes: {
+        scroll: {
+          to: {
+            transform: 'translate(calc(-50% - 0.5rem))',
+          },
+        },
       },
     },
     maxWidth: {
